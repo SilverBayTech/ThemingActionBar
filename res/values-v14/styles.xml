@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+ * Copyright (c) 2013 Kevin Hunter
+ * 
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ * 
+ * http://www.apache.org/licenses/LICENSE-2.0
+ * 
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ -->
+<resources>
+
+    <style name="SBT.App.Theme" parent="@style/Theme.Sherlock">
+        <item name="android:actionBarStyle">@style/SBT.ActionBar.Style</item>
+        <item name="android:actionBarTabStyle">@style/SBT.ActionBarTab.Style</item>
+        <item name="android:actionBarTabTextStyle">@style/SBT.ActionBarTabText.Style</item>
+        
+        <item name="android:actionDropDownStyle">@style/SBT.DropDown.Style</item>
+        
+        <item name="android:actionBarItemBackground">@drawable/actionbaritem_background</item>
+
+        <item name="android:popupMenuStyle">@style/SBT.OverflowMenu.Style</item>
+        <item name="android:dropDownListViewStyle">@style/SBT.OverflowMenu.ListView</item>
+    </style>
+
+    <style name="SBT.ActionBar.Style" parent="@style/Widget.Sherlock.ActionBar.Solid">
+        <item name="android:background">@drawable/actionbar_background_main</item>
+        <item name="android:backgroundStacked">@drawable/actionbar_background_stacked</item>
+        <item name="android:backgroundSplit">@drawable/actionbar_background_split</item>
+        <item name="android:titleTextStyle">@style/SBT.ActionBarText.Style</item>
+    </style>
+</resources>

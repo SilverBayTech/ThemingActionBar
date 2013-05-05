@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * Copyright (c) 2013 Kevin Hunter
+ * 
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ * 
+ * http://www.apache.org/licenses/LICENSE-2.0
+ * 
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+-->
+<resources>
+
+    <style name="SBT.App.Theme" parent="@style/Theme.Sherlock">
+        <item name="actionBarStyle">@style/SBT.ActionBar.Style</item>
+        <item name="actionBarTabStyle">@style/SBT.ActionBarTab.Style</item>
+        <item name="actionBarTabTextStyle">@style/SBT.ActionBarTabText.Style</item>
+        <item name="actionDropDownStyle">@style/SBT.DropDown.Style</item>
+        <item name="actionBarItemBackground">@drawable/actionbaritem_background</item>
+        <item name="popupMenuStyle">@style/SBT.OverflowMenu.Style</item>
+        <item name="dropDownListViewStyle">@style/SBT.OverflowMenu.ListView</item>
+        <item name="android:panelBackground">@drawable/actionbar_dropdown_panel_background</item>
+        <item name="android:panelFullBackground">@drawable/actionbar_dropdown_panel_background</item>
+    </style>
+
+    <style name="SBT.ActionBar.Style" parent="@style/Widget.Sherlock.ActionBar.Solid">
+        <item name="background">@drawable/actionbar_background_main</item>
+        <item name="backgroundStacked">@drawable/actionbar_background_stacked</item>
+        <item name="backgroundSplit">@drawable/actionbar_background_split</item>
+        <item name="titleTextStyle">@style/SBT.ActionBarText.Style</item>
+    </style>
+
+    <style name="SBT.ActionBarTab.Style" parent="@style/Widget.Sherlock.ActionBar.TabView">
+        <item name="android:background">@drawable/actionbar_tab</item>
+    </style>
+
+    <style name="SBT.ActionBarText.Style" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/actionBarText</item>
+    </style>
+
+    <style name="SBT.ActionBarTabText.Style" parent="@style/Widget.Sherlock.ActionBar.TabText">
+        <item name="android:textColor">@color/actionBarTabText</item>
+    </style>
+
+    <style name="SBT.DropDown.Style" parent="@style/Widget.Sherlock.Spinner.DropDown.ActionBar">
+        <item name="android:background">@drawable/actionbar_spinner_background</item>
+        <item name="android:popupBackground">@drawable/actionbar_dropdown_background</item>
+        <item name="android:dropDownSelector">@drawable/actionbar_dropdown_selector</item>
+    </style>
+
+    <style name="SBT.OverflowMenu.Style" parent="@style/Widget.Sherlock.ListPopupWindow">
+        <item name="android:popupBackground">@drawable/actionbar_dropdown_panel_background</item>
+    </style>
+
+    <style name="SBT.OverflowMenu.ListView" parent="@style/Widget.Sherlock.ListView.DropDown">
+        <item name="android:listSelector">@drawable/actionbar_dropdown_selector</item>
+    </style>
+
+</resources>
